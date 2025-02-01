@@ -1,13 +1,22 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "GyeonggiBold";
+  src: url("./assets/fonts/Title_Bold.woff") format("woff");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "GyeonggiMedium";
+  src: url("./assets/fonts/Title_Medium.woff") format("woff");
 }
+
+@font-face {
+  font-family: "GyeonggiLight";
+  src: url("./assets/fonts/Title_Light.woff") format("woff");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* html {
+  @apply font-gyeonggi;
+} */
