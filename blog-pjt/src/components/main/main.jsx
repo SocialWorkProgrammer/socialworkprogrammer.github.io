@@ -11,10 +11,10 @@ const Navbar = () => {
 
         {/* 네비게이션 링크 */}
         <nav className="space-x-10">
-          <a href="#home" className="hover:text-gray-300 text-2xl">
+          <a href="home" className="hover:text-gray-300 text-2xl">
             PortFolio
           </a>
-          <a href="#about" className="hover:text-gray-300 text-2xl">
+          <a href="about" className="hover:text-gray-300 text-2xl">
             About Me
           </a>
         </nav>
